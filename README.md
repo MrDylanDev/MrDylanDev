@@ -85,7 +85,7 @@ console.log("✨ Ready for new challenges! ✨");
 
 ## 🎲 ═══ RANDOM POWER-UP ═══ 🎲
 
-![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&quote=The+only+way+to+do+great+work+is+to+love+what+you+do&author=Steve+Jobs)
+![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&quote=Code+is+poetry+that+executes)
 
 <img src="./images/bfR.gif" width="300" alt="flames" />
 <hr>
