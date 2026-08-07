@@ -5,7 +5,7 @@
   <img src="images/linux-tux.gif" width="120" alt="Tux" />
 </p>
 
-**Full Stack Developer · Medellín, Colombia**
+**Full Stack Developer**
 
 <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=30&duration=3000&pause=1000&color=00F7F7&center=true&vCenter=true&repeat=true&width=800&height=100&lines=%3C+DEVELOPER+%2F%3E;%3C+GAMER+%2F%3E;%3C+CODE+WIZARD+%2F%3E;%3C+BUG+SLAYER+%2F%3E;%3C+CAFFEINE+POWERED+%2F%3E" alt="Developer · Gamer · Code Wizard · Bug Slayer · Caffeine Powered" />
 
@@ -13,13 +13,10 @@
 
 ---
 
-## Sobre mí
-
-Full Stack Developer con base en Medellín, Colombia. Enfocado en construir aplicaciones web funcionales, del diseño de la interfaz a la lógica del backend.
-
-Me caracterizo por escribir código limpio y mantenible, resolver problemas con criterio y aprender constantemente. Busco aportar valor real a los proyectos y crecer junto a equipos con los mismos estándares de calidad.
-
-Si querés charlar de desarrollo o colaborar en un proyecto, no dudes en escribirme.
+## Hola!
+<p align="center">
+  <img src="images/giphy.gif" width="420" alt="Giphy" />
+</p>
 
 ---
 
@@ -56,11 +53,6 @@ Si querés charlar de desarrollo o colaborar en un proyecto, no dudes en escribi
   <img src="https://cdn.simpleicons.org/git/F05032" width="32" alt="Git" />
   <img src="https://cdn.simpleicons.org/linux/FCC624" width="32" alt="Linux" />
 </p>
-
-<p align="center">
-  <img src="images/giphy.gif" width="420" alt="Giphy" />
-</p>
-
 ---
 
 ## Estadísticas
@@ -84,7 +76,7 @@ Si querés charlar de desarrollo o colaborar en un proyecto, no dudes en escribi
 
 <div align="center">
 
-*"Buen café, buen código, buena partida."*
+*""El gran hermano te vigila.""*
 
 **¡Gracias por visitar!** Si alguno de mis repos te es útil, no olvides dejar una estrella.
 
