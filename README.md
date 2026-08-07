@@ -28,40 +28,40 @@
 **Frontend**
 
 <p align="center">
-  <img src="https://cdn.simpleicons.org/html5/E34F26" width="32" alt="HTML" />
-  <img src="https://cdn.simpleicons.org/css3/1572B6" width="32" alt="CSS" />
-  <img src="https://cdn.simpleicons.org/javascript/F7DF1E" width="32" alt="JavaScript" />
+  <img src="https://cdn.simpleicons.org/html5/E34F26?v=2" width="32" alt="HTML" />
+  <img src="https://cdn.simpleicons.org/css3/1572B6?v=2" width="32" alt="CSS" />
+  <img src="https://cdn.simpleicons.org/javascript/F7DF1E?v=2" width="32" alt="JavaScript" />
 </p>
 
 **Backend**
 
 <p align="center">
-  <img src="https://cdn.simpleicons.org/python/3776AB" width="32" alt="Python" />
-  <img src="https://cdn.simpleicons.org/django/092E20" width="32" alt="Django" />
-  <img src="https://cdn.simpleicons.org/fastapi/009688" width="32" alt="FastAPI" />
-  <img src="https://cdn.simpleicons.org/nodedotjs/339933" width="32" alt="Node.js" />
+  <img src="https://cdn.simpleicons.org/python/3776AB?v=2" width="32" alt="Python" />
+  <img src="https://cdn.simpleicons.org/django/092E20?v=2" width="32" alt="Django" />
+  <img src="https://cdn.simpleicons.org/fastapi/009688?v=2" width="32" alt="FastAPI" />
+  <img src="https://cdn.simpleicons.org/nodedotjs/339933?v=2" width="32" alt="Node.js" />
 </p>
 
 **Bases de datos**
 
 <p align="center">
-  <img src="https://cdn.simpleicons.org/mysql/4479A1" width="32" alt="MySQL" />
-  <img src="https://cdn.simpleicons.org/postgresql/4169E1" width="32" alt="PostgreSQL" />
+  <img src="https://cdn.simpleicons.org/mysql/4479A1?v=2" width="32" alt="MySQL" />
+  <img src="https://cdn.simpleicons.org/postgresql/4169E1?v=2" width="32" alt="PostgreSQL" />
 </p>
 
 **Herramientas e infraestructura**
 
 <p align="center">
-  <img src="https://cdn.simpleicons.org/docker/2496ED" width="32" alt="Docker" />
-  <img src="https://cdn.simpleicons.org/git/F05032" width="32" alt="Git" />
-  <img src="https://cdn.simpleicons.org/linux/FCC624" width="32" alt="Linux" />
+  <img src="https://cdn.simpleicons.org/docker/2496ED?v=2" width="32" alt="Docker" />
+  <img src="https://cdn.simpleicons.org/git/F05032?v=2" width="32" alt="Git" />
+  <img src="https://cdn.simpleicons.org/linux/FCC624?v=2" width="32" alt="Linux" />
 </p>
 ---
 
 ## Estadísticas
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MrDylanDev&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="GitHub stats" />
+  <img src="https://streak-stats.demolab.com/?user=MrDylanDev&theme=radical&hide_border=true" alt="GitHub streak" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MrDylanDev&layout=compact&theme=radical&hide_border=true" alt="Top languages" />
 </p>
 
