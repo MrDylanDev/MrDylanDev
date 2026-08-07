@@ -1,6 +1,6 @@
 <div align="center">
 
-# Dylan Ospina
+<img src="https://readme-typing-svg.demolab.com?font=Great+Vibes&size=55&duration=2500&pause=1200&color=FFFFFF&center=true&vCenter=true&repeat=false&width=700&height=90&lines=Dylan+Ospina" alt="Dylan Ospina" />
 
 ### Full Stack Developer · Medellín, Colombia 🇨🇴
 
