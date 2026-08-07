@@ -28,6 +28,10 @@ Busco oportunidades donde pueda crear, aprender y aportar valor real. Si querés
 - Aprendizaje continuo de nuevas tecnologías.
 - Solución de problemas con atención al detalle.
 
+<p align="center">
+  <img src="images/giphy.gif" width="420" alt="Giphy" />
+</p>
+
 ---
 
 ## 📈 Estadísticas
