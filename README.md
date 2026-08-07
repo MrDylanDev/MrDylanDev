@@ -15,39 +15,47 @@
 
 ## Sobre mí
 
-Soy Desarrollador Full Stack con base en Medellín, Colombia. Me apasiona la tecnología y la forma en que el código puede transformar una idea en un producto real.
+Full Stack Developer con base en Medellín, Colombia. Enfocado en construir aplicaciones web funcionales, del diseño de la interfaz a la lógica del backend.
 
-Creo en construir sobre bases sólidas: escribo código limpio, me tomo el tiempo de entender los problemas y aprendo algo nuevo cada día. Disfruto tanto diseñar una interfaz cuidada como resolver la lógica de un backend bien estructurado.
+Me caracterizo por escribir código limpio y mantenible, resolver problemas con criterio y aprender constantemente. Busco aportar valor real a los proyectos y crecer junto a equipos con los mismos estándares de calidad.
 
-Estoy en búsqueda de oportunidades donde pueda aportar, seguir aprendiendo y crecer junto a un equipo. Si querés hablar de desarrollo o colaborar en un proyecto, no dudes en escribirme.
+Si querés charlar de desarrollo o colaborar en un proyecto, no dudes en escribirme.
 
 ---
 
 ## Tecnologías y herramientas
 
-### Frontend
+**Frontend**
 
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+<p align="center">
+  <img src="https://cdn.simpleicons.org/html5/E34F26" width="32" alt="HTML" />
+  <img src="https://cdn.simpleicons.org/css3/1572B6" width="32" alt="CSS" />
+  <img src="https://cdn.simpleicons.org/javascript/F7DF1E" width="32" alt="JavaScript" />
+</p>
 
-### Backend
+**Backend**
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+<p align="center">
+  <img src="https://cdn.simpleicons.org/python/3776AB" width="32" alt="Python" />
+  <img src="https://cdn.simpleicons.org/django/092E20" width="32" alt="Django" />
+  <img src="https://cdn.simpleicons.org/fastapi/009688" width="32" alt="FastAPI" />
+  <img src="https://cdn.simpleicons.org/nodedotjs/339933" width="32" alt="Node.js" />
+</p>
 
-### Bases de datos
+**Bases de datos**
 
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+<p align="center">
+  <img src="https://cdn.simpleicons.org/mysql/4479A1" width="32" alt="MySQL" />
+  <img src="https://cdn.simpleicons.org/postgresql/4169E1" width="32" alt="PostgreSQL" />
+</p>
 
-### Herramientas e infraestructura
+**Herramientas e infraestructura**
 
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+<p align="center">
+  <img src="https://cdn.simpleicons.org/docker/2496ED" width="32" alt="Docker" />
+  <img src="https://cdn.simpleicons.org/git/F05032" width="32" alt="Git" />
+  <img src="https://cdn.simpleicons.org/linux/FCC624" width="32" alt="Linux" />
+</p>
 
 <p align="center">
   <img src="images/giphy.gif" width="420" alt="Giphy" />
