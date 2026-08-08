@@ -81,6 +81,5 @@
 
 *""El gran hermano te vigila.""*
 
-**¡Gracias por visitar!** Si alguno de mis repos te es útil, no olvides dejar una estrella.
-
+**¡Gracias por visitar!**
 </div>
