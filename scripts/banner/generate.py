@@ -185,10 +185,10 @@ def portrait_points(theme: str, rng: np.random.Generator) -> np.ndarray:
     source = Image.open(SOURCE).convert("RGBA")
     # Tighter head + shoulders crop so face detail fills the VISUAL.MAP frame.
     w, h = source.size
-    crop_w = int(w * 0.60)
+    crop_w = int(w * 0.80)
     crop_h = int(crop_w * (340 / 300))
     left = (w - crop_w) // 2
-    top = int(h * 0.08)
+    top = int(h * 0.16)
     crop = source.crop((left, top, left + crop_w, top + crop_h)).resize((300, 340), Image.Resampling.LANCZOS)
     rgb = crop.convert("RGB")
     alpha = np.asarray(crop.getchannel("A"), dtype=np.float32) / 255.0
