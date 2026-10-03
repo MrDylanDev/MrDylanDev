@@ -229,9 +229,18 @@ def portrait_points(theme: str, rng: np.random.Generator) -> np.ndarray:
 
 
 def logo_silhouette_points(image: Image.Image) -> np.ndarray:
-    """Return every visible logo pixel in the portrait frame's coordinate space."""
-    alpha = np.asarray(image.getchannel("A"))
-    ys, xs = np.where(alpha > 127)
+    """Dithered logo pixels (darkness-weighted, like the portrait) in the
+    portrait frame's visual space. Dark lines (eyes, mouth, outlines) come
+    out dense; light fills stay sparse."""
+    rgb = np.asarray(image.convert("RGB"), dtype=np.float32)
+    alpha = np.asarray(image.getchannel("A"), dtype=np.float32) / 255.0
+    gray = 0.299 * rgb[..., 0] + 0.587 * rgb[..., 1] + 0.114 * rgb[..., 2]
+    gray = gray * alpha + 255.0 * (1.0 - alpha)
+    prepared = Image.fromarray(gray.astype("uint8"))
+    prepared = ImageOps.autocontrast(prepared, cutoff=1)
+    prepared = ImageEnhance.Contrast(prepared).enhance(1.5)
+    bits = floyd_steinberg(np.asarray(prepared))
+    ys, xs = np.where(bits & (alpha > 0.05))
     return np.column_stack((89 + xs * 0.675, 188 + ys * 0.675)).astype(np.float32)
 
 
