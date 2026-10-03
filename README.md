@@ -1,3 +1,4 @@
+<!-- Go Gopher artwork by Renee French, CC-BY 3.0 (golang.org) — silhouette in banner -->
 <div align="center">
 
 <a href="https://github.com/MrDylanDev">

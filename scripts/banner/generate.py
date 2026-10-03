@@ -34,7 +34,7 @@ HOLD_PARTICLE_COUNT = 2_400
 SEED = 314159
 LOGO_SUFFIXES = {".png", ".webp"}
 LOGO_ALIASES = {"kube": "kubernetes"}
-PREFERRED_LOGO_ORDER = ("linux", "kubernetes")
+PREFERRED_LOGO_ORDER = ("linux", "go")
 
 YAML_ROWS = [
     (0, "profile", ""),
