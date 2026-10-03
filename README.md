@@ -11,10 +11,10 @@
 <br>
 
 <a href="https://github.com/MrDylanDev">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&duration=2600&pause=900&color=F78CA0&center=true&vCenter=true&width=900&lines=Dylan+Ospina+%E2%80%94+Full+Stack+Developer%3BPython+%C2%B7+Django+%C2%B7+FastAPI+%C2%B7+Node%3BDocker+%C2%B7+Linux+%C2%B7+Postgres" alt="Banner animado con perfil Full Stack">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&duration=2600&pause=900&color=00C853&center=true&vCenter=true&width=900&lines=Dylan+Ospina+%E2%80%94+Full+Stack+Developer%3BPython+%C2%B7+Django+%C2%B7+FastAPI+%C2%B7+Node%3BDocker+%C2%B7+Linux+%C2%B7+Postgres" alt="Banner animado con perfil Full Stack">
 </a>
 
-<img src="https://komarev.com/ghpvc/?username=MrDylanDev&style=flat&color=f78ca0&label=profile+views" alt="profile views">
+<img src="https://komarev.com/ghpvc/?username=MrDylanDev&style=flat&color=00c853&label=profile+views" alt="profile views">
 
 </div>
 
@@ -95,7 +95,7 @@
 <div align="center">
 
 <a href="https://github.com/MrDylanDev">
-  <img src="https://img.shields.io/badge/GitHub-f78ca0?style=for-the-badge&logo=github&logoColor=1a1a22" alt="GitHub">
+  <img src="https://img.shields.io/badge/GitHub-00C853?style=for-the-badge&logo=github&logoColor=1a1a22" alt="GitHub">
 </a>&nbsp;&nbsp;
 <a href="https://discord.com/users/851277199842476042">
   <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord">

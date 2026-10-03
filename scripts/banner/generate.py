@@ -58,28 +58,28 @@ YAML_ROWS = [
 
 THEMES = {
     "dark": {
-        "bg":      "#0A0F1E",
-        "panel":   "#0D1628",
-        "panel2":  "#101B30",
-        "line":    "#25344C",
-        "muted":   "#8291A8",
-        "text":    "#F0E6F0",
-        "portrait":"#F78CA0",   # city pop pink
-        "chrome":  "#C9B1D9",   # city pop lavender
-        "accent":  "#F78CA0",
-        "shadow":  "#02050B",
+        "bg":      "#020604",
+        "panel":   "#04120A",
+        "panel2":  "#062115",
+        "line":    "#0F3D22",
+        "muted":   "#4C7A5F",
+        "text":    "#D6FFE0",
+        "portrait":"#00FF41",   # matrix green
+        "chrome":  "#00C853",   # deep matrix green
+        "accent":  "#00FF41",
+        "shadow":  "#000000",
     },
     "light": {
-        "bg":      "#FDF0F3",
+        "bg":      "#F0FDF4",
         "panel":   "#FFFFFF",
-        "panel2":  "#FDE8EE",
-        "line":    "#F0C0CE",
-        "muted":   "#9B7B8A",
-        "text":    "#2D1A24",
-        "portrait":"#E05F80",
-        "chrome":  "#7B5EA7",
-        "accent":  "#E05F80",
-        "shadow":  "#D4A0B0",
+        "panel2":  "#DCFCE7",
+        "line":    "#86EFAC",
+        "muted":   "#4D7C5F",
+        "text":    "#052E16",
+        "portrait":"#16A34A",
+        "chrome":  "#15803D",
+        "accent":  "#16A34A",
+        "shadow":  "#A7F3D0",
     },
 }
 
