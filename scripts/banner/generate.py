@@ -58,6 +58,7 @@ YAML_ROWS = [
 
 THEMES = {
     "dark": {
+        "canvas": "#000000",  # pure black outer frame, both themes
         "bg":      "#020604",
         "panel":   "#04120A",
         "panel2":  "#062115",
@@ -70,6 +71,7 @@ THEMES = {
         "shadow":  "#000000",
     },
     "light": {
+        "canvas": "#000000",  # pure black outer frame, both themes
         "bg":      "#F0FDF4",
         "panel":   "#FFFFFF",
         "panel2":  "#DCFCE7",
@@ -351,7 +353,7 @@ def render_svg(
         '<feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>',
         '<clipPath id="visualClip"><rect x="49" y="124" width="390" height="414" rx="3"/></clipPath>',
         "</defs>",
-        f'<rect width="{W}" height="{H}" rx="18" fill="{t["bg"]}"/>',
+        f'<rect width="{W}" height="{H}" rx="18" fill="{t["canvas"]}"/>',
         f'<rect x="13" y="13" width="1154" height="584" rx="13" fill="{t["panel"]}" '
         f'stroke="{t["line"]}" filter="url(#shadow)"/>',
         f'<path d="M13 62H1167" stroke="{t["line"]}"/>',
@@ -545,7 +547,7 @@ def main() -> None:
             for name, image in logos.items()
         }
         svg = render_svg(theme, portraits[theme], sampled, hold_particles, rng)
-        output = ASSETS / f"banner-{theme}.v9.svg"
+        output = ASSETS / f"banner-{theme}.v10.svg"
         output.write_text(svg, encoding="utf-8")
         byte_size = output.stat().st_size
         print(

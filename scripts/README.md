@@ -31,7 +31,7 @@ ratios), `--values` (print numbers per axis), `--no-animate`.
 
 ```bash
 pip install -r scripts/banner/requirements.txt
-python3 scripts/banner/generate.py   # writes assets/banner-{dark,light}.v9.svg
+python3 scripts/banner/generate.py   # writes assets/banner-{dark,light}.v10.svg
 ```
 
 Two inputs live **outside** this repository and are required:
