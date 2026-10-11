@@ -78,17 +78,40 @@ def _api(url, token):
         return json.loads(r.read().decode())
 
 
+def _rate_limited(error: urllib.error.HTTPError) -> bool:
+    """Distinguish quota exhaustion from a per-repo failure worth skipping."""
+    return error.code in (403, 429) and (
+        error.headers.get("X-RateLimit-Remaining") == "0"
+        or error.headers.get("Retry-After") is not None
+    )
+
+
+def _fail_quota(token: str | None) -> None:
+    hint = ("set GITHUB_TOKEN or GH_TOKEN to raise the quota"
+            if not token else
+            "authenticated and still limited; GitHub applied a secondary "
+            "rate limit, retry later")
+    sys.exit(f"github rate limit exhausted mid-scan — {hint}")
+
+
 def from_github(user: str, token: str | None, limit: int, exclude: set[str],
                 curve: float):
     """Sum language bytes across the user's non-fork public repos."""
     totals: dict[str, int] = {}
     page = 1
     while True:
-        repos = _api(
-            f"https://api.github.com/users/{user}/repos"
-            f"?per_page=100&page={page}&type=owner&sort=pushed",
-            token,
-        )
+        try:
+            repos = _api(
+                f"https://api.github.com/users/{user}/repos"
+                f"?per_page=100&page={page}&type=owner&sort=pushed",
+                token,
+            )
+        except urllib.error.HTTPError as e:
+            if _rate_limited(e):
+                _fail_quota(token)
+            sys.exit(f"github api error {e.code} listing repos for '{user}'")
+        except urllib.error.URLError as e:
+            sys.exit(f"network error reaching github api: {e.reason}")
         if not repos:
             break
         for repo in repos:
@@ -96,7 +119,11 @@ def from_github(user: str, token: str | None, limit: int, exclude: set[str],
                 continue
             try:
                 langs = _api(repo["languages_url"], token)
-            except urllib.error.HTTPError:
+            except urllib.error.HTTPError as e:
+                if _rate_limited(e):
+                    _fail_quota(token)
+                continue
+            except urllib.error.URLError:
                 continue
             for name, count in langs.items():
                 if name.lower() in exclude:
@@ -263,7 +290,8 @@ def render(title, axes, theme: str, size: int, rings: int, show_values: bool,
 
 
 def esc(s: str) -> str:
-    return (s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;"))
+    return (s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+            .replace('"', "&quot;").replace("'", "&#39;"))
 
 
 # --------------------------------------------------------------------------- #
