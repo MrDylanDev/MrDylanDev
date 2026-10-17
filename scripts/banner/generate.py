@@ -49,7 +49,7 @@ YAML_ROWS = [
     (1, "backend", "Python · Django · FastAPI · Node.js"),
     (1, "databases", "PostgreSQL · MySQL"),
     (1, "tools", "Docker · Git · Linux"),
-    (1, "learning", "Testing · CI/CD"),
+    (1, "learning", "DevOps · IA"),
     (0, "contact", ""),
     (1, "github", "MrDylanDev"),
     (1, "discord", "851277199842476042"),
